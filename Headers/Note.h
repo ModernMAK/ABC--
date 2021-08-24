@@ -3,11 +3,6 @@
 #ifndef _NOTE_h
 #define _NOTE_h
 
-#if defined(ARDUINO) && ARDUINO >= 100
-	#include "arduino.h"
-#else
-	#include "WProgram.h"
-#endif
 #include "UniquePitch.h"
 #include "Fraction.h"
 #include "PitchMediator.h"

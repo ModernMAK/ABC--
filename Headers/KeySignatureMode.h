@@ -3,11 +3,6 @@
 #ifndef _KEYSIGNATUREMODE_h
 #define _KEYSIGNATUREMODE_h
 
-#if defined(ARDUINO) && ARDUINO >= 100
-	#include "arduino.h"
-#else
-	#include "WProgram.h"
-#endif
 #include "UniquePitch.h"
 enum KeySignatureMode {
 	KSM_Ionian = 0,

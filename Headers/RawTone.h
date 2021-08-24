@@ -3,11 +3,6 @@
 #ifndef _RAWTONE_h
 #define _RAWTONE_h
 
-#if defined(ARDUINO) && ARDUINO >= 100
-	#include "arduino.h"
-#else
-	#include "WProgram.h"
-#endif
 class RawTone {
 private:
 	unsigned int
